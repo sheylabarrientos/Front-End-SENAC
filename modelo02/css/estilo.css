@@ -1,0 +1,55 @@
+body{
+    color: white;
+}
+
+h1{
+    width: 480px;
+    background-image: linear-gradient(to bottom, rgb(170, 169, 169), rgb(252, 252, 252), rgb(170, 169, 169));
+    color: teal;    
+    border-radius: 10px;
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    text-shadow:2px 3px 4px rgb(235, 232, 232);
+
+}
+
+input{
+    width: 350px;
+    height: auto;
+    background-image: linear-gradient(to right, rgb(170, 169, 169), rgb(252, 252, 252), rgb(170, 169, 169));
+    border-radius: 5px;
+    border: 1px darkslategrey;
+    font-size: 30px;
+    margin: 5px;
+    text-align: center;    
+    text-shadow:2px 3px 4px rgb(44, 44, 44);
+    justify-content: center;        
+    -moz-box-shadow: 1px 2px 8px #000000;
+    -webkit-box-shadow: 1px 2px 8px #000000;
+    box-shadow: 1px 2px 8px #000000;
+}
+
+#buttonCalc{
+    width: 100px;
+    height: auto;
+    background-image: linear-gradient(to right, rgb(121, 121, 121), rgb(202, 201, 201), rgb(121, 121, 121));
+    font-size: 20px;    
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    -moz-box-shadow: 1px 2px 8px #000000;
+    -webkit-box-shadow: 1px 2px 8px #000000;
+    box-shadow: 1px 2px 8px #000000;
+    margin-left: 380px;    
+    color: white;
+}
+
+#rotulo{
+    width: 460px;
+    height: auto;    
+    background-image: linear-gradient(180deg, rgb(48, 161, 146), rgb(9, 97, 97));
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: monospace;
+}

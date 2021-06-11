@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/estilo.css" rel="stylesheet">
+    <title>Calculadora JS</title>
+  </head>
+  <body>
+    <h1>Calculadora JS</h1>
+        <div id="content">
+            <form id="Calculadora" name="Calculadora">
+                <input type="" name="display" style="width: 440px; height: 100px; background-color: teal; text-align: center;">
+                
+                <input type="button" value="--" onclick="Calculadora.display.value = ' ' ">
+                <input type="button" value="CE" onclick="Calculadora.display.value = ' ' ">
+                <input type="button" value="C"  onclick="Calculadora.display.value = ' ' ">
+                <input type="button" value="+-" onclick="Calculadora.display.value += '+-' ">
+
+                <input type="button" value="7" onclick="Calculadora.display.value += 7 ">            
+                <input type="button" value="8" onclick="Calculadora.display.value += 8 ">
+                <input type="button" value="9" onclick="Calculadora.display.value += 9 ">            
+                <input type="button" value="/" onclick="Calculadora.display.value += '/' ">
+
+                <input type="button" value="4" onclick="Calculadora.display.value += 4 ">
+                <input type="button" value="5" onclick="Calculadora.display.value += 5 ">
+                <input type="button" value="6" onclick="Calculadora.display.value += 6 ">
+                <input type="button" value="*" onclick="Calculadora.display.value += '*' ">
+
+                <input type="button" value="1" onclick="Calculadora.display.value += 1 ">            
+                <input type="button" value="2" onclick="Calculadora.display.value += 2 ">
+                <input type="button" value="3" onclick="Calculadora.display.value += 3 ">            
+                <input type="button" value="-" onclick="Calculadora.display.value += '-' ">
+
+                <input type="button" value="0" onclick="Calculadora.display.value += 0">
+                <input type="button" value="," onclick="Calculadora.display.value += ',' ">
+                <input type="button" value="+" onclick="Calculadora.display.value += '+' ">                
+                <input type="button" value="=" onclick="Calculadora.display.value = eval(Calculadora.display.value)">
+
+        </div>                     
+            
+        </form>
+    </body>
+</html>
